@@ -1,0 +1,15 @@
+name: First Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a welcome Message
+        run: exho "Welcome to our first Github Actions Workflow!!"
+  
