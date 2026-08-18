@@ -1,0 +1,10 @@
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"
+
+# jobs:
+#   daily-task:
+#     runs-on: windows-latest
+#     steps:
+#       - name: Print Message
+#         run: echo "Running The scheduled Task"
